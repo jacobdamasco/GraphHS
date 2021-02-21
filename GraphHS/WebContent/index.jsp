@@ -16,7 +16,7 @@
             <a href="#" class="navbar-brand px-4 py-2 h1 fs-2">GraphHS</a>
             <div class="d-flex flex-row-reverse px-3">
                 <div class="px-3">
-                    <a href="graph-page.jsp" class="text-white text-decoration-none">Try It</a>
+                    <a href="graph-step-1.jsp" class="text-white text-decoration-none">Try It</a>
                 </div>
                 <div class="px-3">
                     <a href="index.jsp" class="text-white text-decoration-none">Home</a>
@@ -34,7 +34,7 @@
                 <div class="card p-5 border-0">
                     <h1 class="align-middle">Generating graphs from equations is a simple click away.</h1>
                     <p class="py-3">A robust web tool for students to generate graphs by uploading text files containing equations.</p>
-                    <a href="graph-page.jsp" class="btn btn-danger my-3 mx-5 px-1 py-2 rounded-pill align-left">Click to Start</a>
+                    <a href="graph-step-1.jsp" class="btn btn-danger my-3 mx-5 px-1 py-2 rounded-pill align-left">Click to Start</a>
                 </div>
             </div>
 
