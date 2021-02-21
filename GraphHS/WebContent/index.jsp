@@ -40,7 +40,7 @@
 
             <!--right half-->
             <div class="col-md-6 p-2">
-                <p class="text-center align-middle">Image will go here.</p>
+                <img src="https://i.imgur.com/FgXfY1S.jpg" alt="GraphHS Workspace" class="image-fluid justify-content-center w-75">
             </div>
         </div>
     </div>
