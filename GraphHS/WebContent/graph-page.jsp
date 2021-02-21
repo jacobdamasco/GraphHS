@@ -32,7 +32,11 @@
             <div class="card bg-secondary bg-gradient">
                 <div class="card-body">
                     <p><span class="fw-bold">Step 1:</span> Upload a text file that contains graph equations and generate them into graphs. Acceptable files include .txt and .csv. File size limit is 10 MB.</p>
-                    <a class="btn btn-info rounded-pill px-3" href="#" role="button">Upload</a>
+                    <form>
+                   		<label>Please upload a text file.</label>
+                    	<input type="file" name="get-txt-file" accept=".txt" />
+                    	<input type="submit" name="submit" class="btn btn-info rounded-pill px-3" />
+                    </form>
                 </div>
             </div>
         </div>
