@@ -35,6 +35,7 @@
                 	You picked equation
                 	
                 	<% 
+                	//picks equation
                 	String eqnChoice = request.getParameter("eqn-choice");
                 	out.println(eqnChoice);
                 	%>.
