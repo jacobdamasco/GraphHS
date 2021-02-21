@@ -16,10 +16,10 @@
             <a href="#" class="navbar-brand px-4 py-2 h1 fs-2">GraphHS</a>
             <div class="d-flex flex-row-reverse px-3">
                 <div class="px-3">
-                    <a href="#" class="text-white text-decoration-none">Try It</a>
+                    <a href="graph-page.jsp" class="text-white text-decoration-none">Try It</a>
                 </div>
                 <div class="px-3">
-                    <a href="#" class="text-white text-decoration-none">Home</a>
+                    <a href="index.jsp" class="text-white text-decoration-none">Home</a>
                 </div>
             </div>
         </div>
