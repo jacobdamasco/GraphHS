@@ -49,27 +49,11 @@
         <div class="py-3 col-8">
             <div class="card border-0">
                 <div class="card-body">
+                	<p>
+                	</p>
                     <form action="" class="form-inline">
                         <label class="my-1 mr-2" for="inlineFormCustomSelectPref">
-                            <span class="fw-bold">Step 2:</span> How many graphs would you like to display?
-                        </label>
-                        <input type="text" class="rounded border-dark mx-4">
-                    </form>
-                </div>
-            </div>
-        </div>
-        <div class="col-2"></div>
-    </div>
-
-    <!--step 3 card-->
-    <div class="row">
-        <div class="col-2"></div>
-        <div class="py-3 col-8">
-            <div class="card border-0">
-                <div class="card-body">
-                    <form action="" class="form-inline">
-                        <label class="my-1 mr-2" for="inlineFormCustomSelectPref">
-                            <span class="fw-bold">Step 3:</span> Enter a number from the list above. 
+                            <span class="fw-bold">Step 2:</span> Enter a number from the list above. 
                         </label>
                         <input type="text" class="rounded border-dark mx-4">
                         <input type="submit" value="Generate Graph" class="btn btn-danger rounded-pill px-3">
@@ -79,7 +63,32 @@
         </div>
         <div class="col-2"></div>
     </div>
-
+	
+	<div class="row">
+        <div class="col-2"></div>
+        <div class="py-3 col-8">
+            <div class="card border-0">
+                <div class="card-body">
+                    See your graphs below!
+                </div>
+            </div>
+        </div>
+        <div class="col-2"></div>
+    </div>
+    
+    <div class="row">
+        <div class="col-2"></div>
+        <div id="calculator" class="col-8" style="width: 600px; height: 400px;"></div>
+        <div class="col-2"></div>
+    </div>
+    
+	<script src="https://www.desmos.com/api/v1.5/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6"></script>
+	<script>
+		var elt = document.getElementById('calculator');
+		var eqn = 'y=20x^2'
+	  	var calculator = Desmos.GraphingCalculator(elt);
+	  	calculator.setExpression({ id: 'graph1', latex: eqn });
+	</script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
