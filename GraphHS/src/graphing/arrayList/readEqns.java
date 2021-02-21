@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class readEqns 
 {
-		public static void main(String[] args) throws FileNotFoundException
+		public static ArrayList<String> main(String[] args) throws FileNotFoundException
 		{
 				//takes in file from argument
 				File myObj = new File(args[0]);	
@@ -35,6 +35,7 @@ public class readEqns
 						i++;
 					}
 				}
+				return equationArray;
 				
 		}
 
